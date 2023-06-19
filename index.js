@@ -35,6 +35,7 @@ promise.then(() => {
             valuteKey.addEventListener('click', (ev) => {
                 button.innerText = ev.currentTarget.innerText;
                 numInput.dispatchEvent(new Event('input'));
+                selectList.classList.toggle('select-list-visible');
         })
     }
 })
