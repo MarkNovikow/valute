@@ -19,6 +19,8 @@
     border: 1px solid gray;
     padding: 10px 20px;
     font-size: 18px;
+    width: 100%;
+    box-sizing: border-box;
 }
 .select-list {
     font-size: 18px;
