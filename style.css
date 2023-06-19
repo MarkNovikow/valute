@@ -22,7 +22,7 @@
     width: 100%;
     box-sizing: border-box;
 }
-.select-list {
+.select-list-button {
     font-size: 18px;
     padding: 10px 40px;
     text-align: left;
@@ -30,4 +30,26 @@
 .result-input {
     background-color: #fff;
     color: #000;
+}
+.select-list {
+    display: none;
+    margin-top: -20px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+.select-list::-webkit-scrollbar{
+    width: 0 !important
+}
+.select-list-visible {
+    display: block;
+}
+.select-list-item {
+    font-size: 18px;
+    padding: 10px 40px;
+    text-align: left;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.select-list-item:hover {
+    background: #ddd;
 }
